@@ -238,10 +238,10 @@ if __name__ == '__main__':
     if len(hwnd) == 0:
         print("I don't found windows.")
     if len(hwnd) >= 1:
-        Input = input(f'I found {len(hwnd)} windows. Which one should I execute? {list(range(len(hwnd)))} or ALL: ')
+        Input = input(f'I found {len(hwnd)} windows. Which one should I execute? {list(range(len(hwnd)))} or ALL: ').upper()
         asw = 'N'
         while asw == 'N':
-            asw = input('Please prepare the game first until you can see the "Start Challenge" button. Are you ready? [Y, N] default:[Y]: ')
+            asw = input('Please prepare the game first until you can see the "Start Challenge" button. Are you ready? [Y, N] default:[Y]: ').upper()
             if asw == '':
                 asw = 'Y'
         if asw == 'Y':
