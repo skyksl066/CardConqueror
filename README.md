@@ -34,6 +34,8 @@ The requirements.txt file includes the following modules:
 python app.py
 ```
 
+If you want to interrupt the program, please press F12.
+
 ## Troubleshooting
 - If the program cannot locate the card coordinates, use the LocateCards(0.95, r'img/card.bmp') function in the program to obtain the card coordinates, and replace the coordinates in coords.
 - If the program cannot click on the "Start" or "Exit" button, replace the corresponding image file in the img folder.
