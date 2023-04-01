@@ -39,10 +39,11 @@ Before running the script, make sure to open the game and enter the card game mo
 If you want to interrupt the program, please press F12.
 
 ## Troubleshooting
-- If the program cannot locate the card coordinates, use the LocateCards(0.95, r'img/card.bmp') function in the program to obtain the card coordinates, and replace the coordinates in coords.
+- If the program cannot locate the card coordinates, use the LocateCards(0.95, r'img/card.bmp') function to obtain the card coordinates and replace the coordinates in coords.
+- To troubleshoot image recognition issues caused by environmental discrepancies, try using the LocateCards function to reposition the cards and update the coords variable with the new coordinates. Replace the images in the img folder if accurate coordinates cannot be obtained, and manually input the missing coordinates if all else fails. Note that the program will automatically disconnect and start a new game in an infinite loop after flipping all the cards. These steps can improve the performance of the Card Conqueror application by resolving issues with card position recognition.
 - If the program cannot click on the "Start" or "Exit" button, replace the corresponding image file in the img folder.
-- If you encounter the error "pygetwindow.PyGetWindowException: Error code from Windows: 5 - Access is denied", please right-click and run the program as administrator.
-- If you encounter any other issues not covered in this section, please leave a message in the Issues section, and I will try my best to answer your questions as soon as possible.
+- If you encounter the error "pygetwindow.PyGetWindowException: Error code from Windows: 5 - Access is denied", right-click and run the program as administrator.
+- For any other issues, please leave a message in the Issues section, and I will try my best to respond as soon as possible.
 
 ## License
 This project is licensed under the Apache-2.0 License - see the [LICENSE](https://github.com/skyksl066/CardConqueror/blob/main/LICENSE) file for details.
