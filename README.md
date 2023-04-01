@@ -6,7 +6,7 @@ CardConqueror is an automated card game program for Ragnarok Online Origin.
 
 ## Environment
 The program requires the following environment:
-- Python 3.9.13
+- [Python 3.9.13](https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe)
 - Windows 10 x64
 - [Ragnarok Online Origin]()
 
