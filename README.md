@@ -42,6 +42,7 @@ If you want to interrupt the program, please press F12.
 - If the program cannot locate the card coordinates, use the LocateCards(0.95, r'img/card.bmp') function in the program to obtain the card coordinates, and replace the coordinates in coords.
 - If the program cannot click on the "Start" or "Exit" button, replace the corresponding image file in the img folder.
 - If you encounter the error "pygetwindow.PyGetWindowException: Error code from Windows: 5 - Access is denied", please right-click and run the program as administrator.
+- If you encounter any other issues not covered in this section, please leave a message in the Issues section, and I will try my best to answer your questions as soon as possible.
 
 ## License
 This project is licensed under the Apache-2.0 License - see the [LICENSE](https://github.com/skyksl066/CardConqueror/blob/main/LICENSE) file for details.
