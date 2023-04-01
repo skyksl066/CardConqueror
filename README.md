@@ -34,6 +34,8 @@ The requirements.txt file includes the following modules:
 python app.py
 ```
 
+Before running the script, make sure to open the game and enter the card game mode. You should see the words "Start Challenge" on the screen.
+
 If you want to interrupt the program, please press F12.
 
 ## Troubleshooting
